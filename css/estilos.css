@@ -1,0 +1,51 @@
+body
+{
+	background-color: black;
+	color: white;
+}
+
+#escenario
+{
+	margin-top: 10px;
+	position: relative;
+	background-image: url(../img/cielo.jpg);
+	background-size: 600px 400px;
+	background-repeat:no-repeat;
+	width: 600px;
+	height: 400px;
+}
+
+#personaje
+{
+	width: 100px;
+	height: 100px;
+	/*border: 1px solid red; */
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
+.basepersonaje
+{
+	background-image: url(../img/personaje.png);
+}
+
+
+.front_1{ background-position: 0 0; width: 102px; height: 100px; } 
+.front_2{ background-position: 0 -150px; width: 93px; height: 93px; } 
+.front_3{ background-position: 0 -293px; width: 101px; height: 90px; } 
+.front_4{ background-position: 0 -433px; width: 95px; height: 89px; } 
+.left_1{ background-position: 0 -572px; width: 95px; height: 89px; } 
+.left_2{ background-position: 0 -711px; width: 95px; height: 89px; } 
+.left_3{ background-position: 0 -850px; width: 95px; height: 89px; } 
+.left_4{ background-position: 0 -989px; width: 95px; height: 89px; } 
+.right_1{ background-position: 0 -1128px; width: 95px; height: 89px; } 
+.right_2{ background-position: 0 -1267px; width: 95px; height: 89px; } 
+.right_3{ background-position: 0 -1406px; width: 95px; height: 89px; } 
+.right_4{ background-position: 0 -1545px; width: 95px; height: 89px; } 
+.top_1{ background-position: 0 -1684px; width: 95px; height: 89px; } 
+.top_2{ background-position: 0 -1823px; width: 92px; height: 86px; } 
+.top_3{ background-position: -152px 0; width: 101px; height: 90px; } 
+.top_4{ background-position: -152px -140px; width: 92px; height: 104px; } 
+
